@@ -152,7 +152,7 @@ def handle_bgmi(message):
     if user_id in users:
         expiration_date = datetime.datetime.strptime(users[user_id], '%Y-%m-%d %H:%M:%S')
         if datetime.datetime.now() > expiration_date:
-            response = "❌ 𝐀𝐜𝐜𝐞𝐬𝐬 𝐆𝐨𝐓 𝐅𝐮𝐂𝐤𝐞𝐝 𝐆𝐞𝐍 𝐧𝐄𝐰 𝐊𝐞𝐘 𝐀𝐧𝐝 𝐫𝐞𝐝𝐞𝐞𝐌-> using /redeemk <key> ❌"
+            response = "❌ KEY KHATAM HO GAI NEW BUY KAE LE @RAJPUTDDOS❌ "
             bot.reply_to(message, response)
             return
         
@@ -197,7 +197,7 @@ def handle_bgmi(message):
         else:
             response = "✅Usage: /bgmi <target> <port> <time>"
     else:
-        response = "𝐁𝐒𝐃𝐊 𝐆𝐀𝐑𝐄𝐄𝐁 𝐀𝐂𝐂𝐄𝐒𝐒 𝐍𝐀𝐇𝐈 𝐇 𝐓𝐄𝐑𝐏𝐄"
+        response = "𝐁𝐒𝐃𝐊 𝐆𝐀𝐑𝐄𝐄𝐁 𝐀𝐂𝐂𝐄𝐒𝐒 𝐍𝐀𝐇𝐈 𝐇 𝐓𝐄𝐑𝐏𝐄 PHELE BUY KAR LE @RAJPUTDDOS"
 
     bot.reply_to(message, response)
 
